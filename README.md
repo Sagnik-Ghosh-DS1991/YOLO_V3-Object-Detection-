@@ -2,7 +2,7 @@
 
 ## Comparison to Other Detectors
 
-YOLOv3 is extremely fast and accurate. In mAP measured at .5 IOU YOLOv3 is on par with Focal Loss but about 4x faster. Moreover, you can easily tradeoff between speed and accuracy simply by changing the size of the model, no retraining required!
+YOLOv3 is extremely fast and accurate.Moreover, you can easily tradeoff between speed and accuracy simply by changing the size of the model, no retraining required!
 
 ## How It Works:
 
@@ -14,4 +14,15 @@ This model has several advantages over classifier-based systems. It looks at the
 
 ## What's New in Version 3?
 
-YOLOv3 uses a few tricks to improve training and increase performance, including: multi-scale predictions, 
+YOLOv3 uses a few tricks to improve training and increase performance, including: multi-scale predictions.
+
+### For the object detection below pretrained model has been used:
+
+- YOLOv3-320	COCO trainval	test-dev	51.5	38.97 Bn	45
+
+### This is an POC for real time object detection using YOLOV3 end to end and model deployment using HEROKU PAAS cloud platform
+
+Download the below config and weights file for pretrained YOLO model 320:
+
+- YOLOv3-320 weights file :  https://pjreddie.com/media/files/yolov3.weights
+- YOLOv3-320 config file : https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
