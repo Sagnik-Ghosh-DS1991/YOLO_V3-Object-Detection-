@@ -20,9 +20,16 @@ YOLOv3 uses a few tricks to improve training and increase performance, including
 
 - YOLOv3-320	COCO trainval	test-dev	51.5	38.97 Bn	45
 
-### This is an POC for real time object detection using YOLOV3 end to end and model deployment using HEROKU PAAS cloud platform
+### This is a POC for real time object detection using YOLOV3 end to end and model deployment using HEROKU PAAS cloud platform
 
 Download the below config and weights file for pretrained YOLO model 320:
 
 - YOLOv3-320 weights file :  https://pjreddie.com/media/files/yolov3.weights
 - YOLOv3-320 config file : https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+
+All required file including frontend templates, pythonnotebook,static files are included.
+
+### Note:
+
+- Please download the weights and config file for pretrained model from above links
+
